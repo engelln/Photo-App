@@ -1,0 +1,34 @@
+.darkbg {
+    background-color: rgb(61, 68, 75);
+}
+
+.border-25 {
+    border-radius: 25px;
+}
+
+.main-container {
+    max-width: 90%;
+}
+
+.square {
+    width: 100%;
+    padding-bottom: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+.square:hover {
+    transform: scale(1.025);
+}
+
+
+.imgshadow {
+    box-shadow: 3px 3px 10px black;
+}
+
+.test {
+    max-height: 100%;
+    overflow:scroll;
+}
